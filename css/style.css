@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 5px;
+    padding-top:10px;
+    color: rgb(255, 255, 255); /* Color de texto */
+    text-align: center;
+    text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.386);
+    
+}
+
+h3{
+    font-size: 100px;
+    margin: 15px;
+    padding-top:100px;
+    color: rgb(255, 255, 255); /* Color de texto */
+    text-align:center;
+    text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.386);
+    display: block;
+}
+
+h4 {
+    margin: 10px 0 0;
+    color: rgb(255, 255, 255); /* Color de texto */
+    text-align: center;
+    text-shadow: 2px 4px 6px rgba(3, 3, 3, 0.386);
+}
+
+
+
+body {
+    background-size: cover;
+    font-family: "Ubuntu", sans-serif;
+    background-image: url(../imagenes/0002.png);
+    background-color: rgb(26, 164, 185);
+    display:block;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    color: ghostwhite;
+}
+
+.contenedor {
+    background-image: url(../imagenes/0001.png) ;
+    background-color: rgba(227, 209, 235, 0.822);
+    opacity: 90%;
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: 2px 4px 6px rgba(245, 217, 254, 0.386);
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+    text-decoration: rgb(136, 153, 163);
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.btn {
+    border: none; 
+    color: white; 
+    padding: 50px 20px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    text-decoration: underline;
+    justify-content: space-between;
+}
+
+.color:hover {background: #425768;}
+
+.contenedor-operaciones {
+    display: flex;
+    gap: 4px; /* Espacio de 4px entre los botones */
+    justify-content:space-around;
+}
+
+.btn {
+    padding: 10px 18px; /* Ajusta el tamaño de los botones según prefieras */
+    border: none;
+    cursor: pointer;
+}
+
+.color {
+    background-color: #7ab7d0; /* Color de fondo de los botones */
+    color: white;
+    border-radius:10px;
+}
+
+.ordenarNumeros{
+    display: block;
+    gap: 4px; /* Espacio de 4px entre los botones */
+    justify-content: space-around;
+}
+.btn {
+    padding:8px 10px; /* Ajusta el tamaño de los botones según prefieras */
+    border: none;
+    cursor: pointer;
+}
+
+.color {
+    background-color: #7ab7d0; /* Color de fondo de los botones */
+    color: white;
+    border-radius:10px;
+}
+

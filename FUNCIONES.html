@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Funciones Varias</title>
+    <link rel="shortcut icon" href="./imagenes/innovacion.png" type="image/x-icon">
+
+</head>
+<body>
+<h3>Tabla de Funciones</h3>
+<h4>Universidad Simón Bolívar</h4>
+<h4>Por: Gunther</h4>
+<!--_________PROMEDIO____________-->
+<div class="contenedor">
+    <h1>Promedio de Calificaciones</h1>
+    <div class="contenedor-operaciones">
+        <div class="Promedio">
+            <input class="btn color" type="button" value="promedio" onclick="promedio()">
+        </div>
+    </div>
+</div>
+
+<!--_________CALCULADORA____________-->
+<div class="contenedor">
+    <h1>Operaciones Matemáticas</h1>
+    
+    <div class="contenedor-operaciones">
+        <div class="Suma">
+            <input class="btn color" type="button" value="Suma" onclick="suma()">
+        </div>
+        <div class="Resta">
+            <input class="btn color" type="button" value="Resta" onclick="resta()">
+        </div>
+        <div class="Multiplicacion">
+            <input class="btn color" type="button" value="Multiplicación" onclick="multiplicacion()">
+        </div>
+        <div class="Division">
+            <input class="btn color" type="button" value="División" onclick="division()">
+        </div>
+    </div>
+</div>
+
+<!-- ORDENAR NÚMEROS-->
+<div class="contenedor">
+         <div class="ordenarNumeros"><h1>Ordenar Cinco Números</h1>
+         <p>Introduce cinco números para ordenalos</p>
+        <!-- Ingreso de los números solicitados al usuario -->
+        <input class="" type="number" id="numero01" placeholder="Primer número">
+        <input class="" type="number" id="numero02" placeholder="Segundo número">
+        <input class="" type="number" id="numero03" placeholder="Tercer número">
+        <input class="" type="number" id="numero04" placeholder="Cuarto número">
+        <input class="" type="number" id="numero05" placeholder="Quinto número">
+        <!-- Botón para realizar la suma -->
+        <div>
+        <button class="btn color" onclick="ordenarNumeros()">ordenar</button></div>
+        <!-- mostrar resultado -->
+        <p id="resultado"></p>
+    </div>
+</div>
+
+        <!-- ORDENAR PALABRAS -->
+<div class="contenedor">
+         <div class="ordenarpalabras"><h1>Ordenar Tres Palabras</h1>
+         <p>Introduce las palabras para ordenalas</p>
+         <!-- Ingreso de los números solicitados al usuario -->
+        <input type="texto" id="palabra01" placeholder="Primera palabra">
+        <input type="texto" id="palabra02" placeholder="Segunda palabra">
+        <input type="texto" id="palabra03" placeholder="Tercera palabra">
+        <!-- Botón para realizar la suma -->
+        <div>
+        <button class="btn color" onclick="ordenarPalabras()">ordenar</button></div>
+        <!-- mostrar resultado -->
+        <p id="re"></p>
+    </div>
+</div>
+<!-- calcuadora -->
+<div class="contenedor">
+    <div class="jubilacion"><h1> Calcular Jubilacion</h1>
+        <p>Introduce los siguientes datos</p>
+
+    <button class="btn color" onclick="jubilacion()">Ingresar</button>
+
+     </div>
+</div>  
+
+<div class="contenedor">
+    <div class="mescalendario"><h1>Calendario</h1>
+
+    <button class="btn color" onclick="mescalendario()">Ingresar</button>
+ 
+    </div>
+</div>
+
+<div class="contenedor">
+        <div class="calcularSalarioSemanal"><h1> Calcular Salario</h1>
+        <button class="btn color" onclick="calcularSalarioSemanal()">Calcular</button>
+    </div>
+</div>
+
+    <script src="./js/operaciones.js"></script>
+</body>
+</html>

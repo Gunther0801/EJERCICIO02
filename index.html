@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Funciones Varias</title>
+</head>
+<body>
+<h1>Tabla de Funciones</h1>
+<h4>Universidad Simón Bolívar</h4>
+<h4>Por: Gunther</h4>
+<!--_________PROMEDIO____________-->
+<div class="contenedor">
+    <h2>Promedio de Calificaciones</h2>
+    <div class="contenedor-operaciones">
+        <div class="Promedio">
+            <input class="btn color" type="button" value="promedio" onclick="promedio()">
+        </div>
+    </div>
+</div>
+
+<!--_________CALCULADORA____________-->
+<div class="contenedor">
+    <h2>Operaciones Matemáticas</h2>
+    
+    <div class="contenedor-operaciones">
+        <div class="Suma">
+            <input class="btn color" type="button" value="Suma" onclick="suma()">
+        </div>
+        <div class="Resta">
+            <input class="btn color" type="button" value="Resta" onclick="resta()">
+        </div>
+        <div class="Multiplicacion">
+            <input class="btn color" type="button" value="Multiplicación" onclick="multiplicacion()">
+        </div>
+        <div class="Division">
+            <input class="btn color" type="button" value="División" onclick="division()">
+        </div>
+    </div>
+</div>
+
+<!-- ORDENAR NÚMEROS-->
+    <div class="ordenarNumeros">
+        <h1>Ordenar Cinco Números</h1>
+        <p>Introduce cinco números para ordenalor</p>
+    
+        <!-- Ingreso de los números solicitados al usuario -->
+        <input type="number" id="numero01" placeholder="Ingresa el primer número">
+        <input type="number" id="numero02" placeholder="Ingresa el segundo número">
+        <input type="number" id="numero03" placeholder="Ingresa el tercer número">
+        <input type="number" id="numero04" placeholder="Ingresa el cuarto número">
+        <input type="number" id="numero05" placeholder="Ingresa el quinto número">
+    
+        <!-- Botón para realizar la suma -->
+        <button onclick="ordenarNumeros()">ordenar</button>
+        
+        <!-- mostrar resultado -->
+        <p class="btn color"id="resultado"></p></div>
+
+    <script src="./js/operaciones.js"></script>
+</body>
+</html>
